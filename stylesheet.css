@@ -1,46 +1,69 @@
-ul {
-    list-style-type: none;
+.games {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.games ul {
+    display: inline-table;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #152D35;
-    font-family:'Courier New', Courier, monospace;
-    border-radius: 10px;
-    opacity: 1;
+    *display: inline;
+    list-style-type: none;
     
-  }
-  
-  li {
-    float:left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+}
+.games li {
+  padding: 2px 50px;
+  display:inline;
+  color:rgb(171, 168, 168);
+}
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
 
 body{
     background-color: #345B63;
 }
 
+h1{
+  font-size: 50px;
+  color: rgb(171, 168, 168);
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
 .Introduction{
     font-size: 18px;
     color: rgb(171, 168, 168);
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
+
+.IntroductionTitle{
+  font-size: 36px;
+  color: rgb(171, 168, 168);
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
+  padding-top: 0px;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -93,7 +116,7 @@ body{
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 60px 12px;
   position: absolute;
   top: 0;
 }
@@ -110,9 +133,6 @@ body{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {

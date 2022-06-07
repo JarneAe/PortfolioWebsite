@@ -2,16 +2,20 @@
 <html>
 <head>
 <title>Jarne's portfolio</title>
+<link rel="stylesheet" href = "Navbar.css">
 <link rel="stylesheet" href = "stylesheet.css">
-<script src="slideshow.js"></script>
+<script src="main.js"></script>
 </head>
 <body>
-<ul>
-    <li><a class ="active" href = "#home">Home</a></li>
-    <li><a>Projects</a></li>
+<ul class = "Navbar">
+    <li><a class ="active" href = "#home">About me</a></li>
+    <li><a href = "Projects.html">Projects</a></li>
     <li><a>Resume</a></li>
     <li><a>Contact me</a></li>
 </ul>
+
+
+<h1>About me</h1>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -37,8 +41,8 @@
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
+</div>
+    <br>
   
   <!-- The dots/circles -->
   <div style="text-align:center">
@@ -48,15 +52,23 @@
   </div>
 
 
-
-
-
-<h1 class = "Introduction">Introduction</h1>
+<h2 class = "IntroductionTitle">Introduction</h2>
 <p class = "Introduction">Hello, I am Jarne a 17 year old IT and Networking student from Duffel, Belgium. My passion is developing new apps and tools<br>
     especially in Python and C++ in Unreal Engine. I am currently in my last year of high school and will go to college next year to follow <br>
     Applied Computer science to eventually become an AI engineer. I also really enjoy making and playing games.
-    
 </p>
+
+<h3 class = "IntroductionTitle">My favorite Games</h3>
+
+<div class = "games">
+  
+  <ul>
+   <li>Minecraft</li>
+   <li>Elden Ring</li>
+   <li>Civilization VI</li>
+ </ul>
+
+</div>
 
 </body>
 </html>
