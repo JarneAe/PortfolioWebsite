@@ -33,21 +33,25 @@ h3{
 }
 
 
-.SSAAG{
+p{
   font-size: 18px;
   color: rgb(171, 168, 168);
   font-family:'Courier New', Courier, monospace;
   text-align: center;
 }
 
-.SAAG ul{
+.Learn ul{
   margin:auto;
+  
 }
 
-.SSAAG li{
+.Learn li{
   float: none;
-
   text-align:center;
+  font-size: 18px;
+  color: rgb(171, 168, 168);
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
 
 }
 
