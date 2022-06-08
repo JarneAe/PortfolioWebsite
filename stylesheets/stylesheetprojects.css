@@ -23,5 +23,36 @@ h3{
   font-family:'Courier New', Courier, monospace;
 }
 
+.row {
+  display: flex;
+}
 
+.column {
+  flex: 33.33%;
+  padding-left: 40px ;
+}
+
+
+.SSAAG{
+  font-size: 18px;
+  color: rgb(171, 168, 168);
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.SAAG ul{
+  margin:auto;
+}
+
+.SSAAG li{
+  float: none;
+
+  text-align:center;
+
+}
+
+
+#smalltitle {
+  font-size: 18px;
+}
 
